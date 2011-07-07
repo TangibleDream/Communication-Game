@@ -2,5 +2,40 @@ Communications Game 07/06/2011 Concept by Tangible Dream
 
 A play off of Khan Academy gaming system for training communication skills to players.
 
-It'll require a persistant backend for player scores and stats, as well as the warehousing of questions.
+It'll require a persistent backend for player scores and stats, as well as the warehousing of questions.
 Let's talk about how we'd like to build this out.  Languages? Gui vs. Browser App, etc.
+
+7/07/2011 5:26PM
+
+I thought about this a little bit.
+
+Class concept
+
+1. A base concept gives you proficiency if you answer 10 questions in a row correctly. (
+2. A advanced concept gives you proficiency if you answer 10 questions in a row correctly 
+	and have proficiency in all dependent concepts both base and advanced.
+3. An advanced concept unlocks only when proficiency is achieved in all dependent concepts
+4. A challenge concept promotes integration of several concepts.
+5. A challenge concept unlocks when proficiency is achieved in all dependent concepts.
+6. A challenge concept is won after 50 questions are answered correctly*
+
+Class question
+
+1. A question tests proficiency for a given concept.
+2. A question can be formed in any the following ways...
+	a. fill in the blank.
+	b. true or false.
+	c. multiple choice.
+	d. matched pairs
+	e. other?
+3. Questions can have score hurting hints.
+4. Questions can come in written, picture, sound, or video form.
+
+Front language
+
+If we are going to take advantage of relevant video links the way Khan Academy does, 
+I suggest we make it a browser app and employ Ruby/ ROR.
+
+Back language
+
+For persistence, and just to be challenging, can we have mongo?  Otherwise I'm fine with MySql or some such.
