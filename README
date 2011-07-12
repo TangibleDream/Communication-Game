@@ -36,10 +36,9 @@ Front language
 If we are going to take advantage of relevant video links the way Khan Academy does, 
 I suggest we make it a browser app and employ Ruby/ ROR.
 
-Back language
+Back language (updated 7/12/11)
 
-For persistence, and just to be challenging, can we have mongo?  Otherwise I'm fine with MySql or some such.
-
+I was talking about having mongoDB at first, because it is new and would be fun to learn.  And while both of these statements are true, talking to Terry, I suggest we stick with MySql. The thing is, Mongo doesn't necessarily mean a performance bump.  It is best when the data is written one and forever after read.  While the questions and concepts may fall neatly into this category. The player data will be a constant read/write process.  I wouldn't mind exploring the idea of having rails run two seperate databases (and two seperate types of database for that matter) but for now, let's stick with MySql.
 Sources
 
 http://www.khanacademy.org
