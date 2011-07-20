@@ -31,10 +31,13 @@ Class question
 3. Questions can have score hurting hints.
 4. Questions can come in written, picture, sound, or video form.
 
-Front language
+Front language (updated 7/20/11)
 
-If we are going to take advantage of relevant video links the way Khan Academy does, 
-I suggest we make it a browser app and employ Ruby/ ROR.
+Well now we have ourselves a race!!
+
+Rails 3 has been something of a downer.  I have a question aging on the stackoverflow wondering why Rails (3.0.9) is installed and yet not recognized.  Resolution attempts are ongoing.
+
+In the meantime I'm trying Play, a powerful Java and Grails web based framework.  It seems quite promising to give us everything we want for this game.
 
 Back language (updated 7/12/11)
 
